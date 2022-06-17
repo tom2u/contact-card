@@ -1,23 +1,15 @@
 {
-  "name": "server",
+  "name": "contact-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "server": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tom2u/contact-card.git"
-  },
-  "author": "tmb",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tom2u/contact-card/issues"
-  },
-  "homepage": "https://github.com/tom2u/contact-card#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.17.3"
   }
 }
